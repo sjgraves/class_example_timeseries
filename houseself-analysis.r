@@ -1,7 +1,7 @@
 # Analysis of house elf data
 
 # import house elf data
-dat <- read.csv("data/houseelf_earlength_dna_data.csv")
+dat <- read.csv("data/houseelf_earlength_dna_data_1.csv")
 
 get_size_class <- function(weight,threshold){
   if (weight > threshold){
